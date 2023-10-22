@@ -1,15 +1,13 @@
 programa
 {
-	inclua biblioteca Util
 	
-
 	
 	funcao inicio()
 	{
-		inteiro i, j, copia, tam = 11, vet[11]
+		inteiro i, j, copia, tam = 10, vet[10] = {5, 9, 1, 3, 7, 2, 8, 6, 4, 10}
 
 		para (i= 0; i<tam; i++)
-			vet[i] = Util.sorteia (1, 10)
+			
 			
 		para (i= 0; i<tam; i++)
 			escreva(vet[i], ",")
@@ -35,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 91; 
+ * @POSICAO-CURSOR = 161; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
